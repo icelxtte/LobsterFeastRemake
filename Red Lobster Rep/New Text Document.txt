@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Lobster Inspired Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Red Lobster Inspired Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="red-lobster-home.jpg" alt="Red Lobster Inspired Home" style="width:100%">
+        <h2>Enjoy the Best Seafood in Town</h2>
+        <p>Experience a taste of the ocean like never before. Our chefs bring you the freshest catch with the most delectable flavors.</p>
+    </main>
+</body>
+</html>

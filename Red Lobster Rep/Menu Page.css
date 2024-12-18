@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: Garamond;
+    margin: 0;
+    padding: 0;
+    background-color: #acbcc9;
+    background-image: radial-gradient(#482f2f 0.5px, #acbcc9 0.5px);
+    background-size: 10px 10px;
+    cursor: url('lobster.svg'), auto;
+}
+
+.top-right-icon {
+    position: absolute;
+    top: 10px;  /* Distance from the top of the page */
+    right: 10px;  /* Distance from the right of the page */
+    width: 40px;  /* Adjust size as needed */
+    height: auto;  /* Maintain aspect ratio */
+    cursor: pointer; /* Optional: change cursor on hover */
+}
+
+
+/* Header Styles */
+header {
+    background-color: #35424a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #35424a;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+    text-align: center;
+    padding: 50px;
+    min-height: 100vh; /* Ensure main takes up full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the main content */
+    align-items: center; /* Horizontally centers the content */
+}
+
+/* Menu Section Styles */
+.menu-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-section h2 {
+    color: #35424a;
+}
+
+.menu-item {
+    background-color: #de7474;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: absolute;
+    align-items: center;
+}
+
+.menu-item img {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.menu-item h3 {
+    color: #e67e22;
+}
+
+.menu-item p {
+    margin: 0;
+}
+
+.menu-item .price {
+    color: #35424a;
+    font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Logo */
+.logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 10px; /* Space between the logo and the title */
+}
+
+/* Grid layout for menu items */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    justify-content: center; /* Centers the grid items horizontally */
+    max-width: 1000px; /* Restricts the grid's maximum width */
+    margin: 0 auto; /* Centers the grid container */
+}
+
+/* Styling for each figure element (image + caption) */
+.menu-grid figure {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 250px; /* Restricts the width of each item */
+    margin: 0 auto; /* Centers each individual item */
+}
+
+/* Image styling */
+.menu-grid img {
+    width: 100%; /* Full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px;
+}
+
+/* Caption styling */
+.menu-grid figcaption {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.my-github-icon{
+    width: 30px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.my-linkedin-icon{
+    width: 30px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.heart-icon{
+    position: absolute;
+    top: 10px;  /* Distance from the top of the page */
+    right: 60px;  /* Distance from the right of the page */
+    width: 40px;  /* Adjust size as needed */
+    height: auto;  /* Maintain aspect ratio */
+    cursor: pointer; /* Optional: change cursor on hover */ 
+}
